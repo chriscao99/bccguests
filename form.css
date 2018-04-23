@@ -1,0 +1,26 @@
+iframe{
+	width: 200px;
+	height: 340px;
+}
+body{
+	background-color: #EEE;
+}
+form{
+	text-align: center;
+}
+h1{
+	text-align: center;
+}
+p{
+	text-align: center;
+}
+table{
+	position: relative;
+}
+li{
+	position:relative;
+	text-align: center;
+}
+#date{
+	font-family:"Helvetica","Arial",sans-serif;
+}

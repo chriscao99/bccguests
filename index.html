@@ -1,0 +1,67 @@
+<html>
+<head>
+	<title>Guest Pass Validator</title>
+	<link rel="stylesheet" href="../mdl/material.min.css">
+	<link rel="stylesheet" type="text/css" href="./form.css">
+	<script src="../mdl/material.min.js"></script>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+   <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.1/material.indigo-pink.min.css">
+	<script type="text/javascript">
+		function validateEmail(){
+			var email = event.target.value;
+			var expected = /[A-Za-z]@[A-Za-z]+\.[A-Za-z]+/i;
+			if(!expected.test(email)){
+				  
+			}
+		}
+    function reload(){
+      console.log("hello");
+      location.reload();
+    }
+
+	</script>
+</head>
+<body>
+	<br>
+	<h1>Guest Pass Validator</h1>
+	<p>If there are any issues with the app, please email chriscao99@gmail.com!</p>
+  
+	<form name="myForm" action="database.php" method="post">
+		
+		
+		
+		<div class="mdl-textfield mdl-js-textfield">
+   			 <input class="mdl-textfield__input" type="text" id="sample1" name="FirstName">
+   			 <span class="mdl-textfield__error">Input is not in letters!</span>
+    		<label class="mdl-textfield__label" for="sample1">Full Name of Member</label>
+ 	 </div><br>
+
+  <br>
+  <div align="center" style="width:409px; margin:0 auto;">
+  <iframe src="https://docs.google.com/spreadsheets/d/1gibCphDPFiJu8FHR44J0az4-4XH6DfZWr-kzm2_b1LE/pubhtml?widget=true&amp;headers=false"></iframe>
+</div>
+
+
+<br>
+
+ 
+<button type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"  align="center">
+      Submit      
+      
+</button>
+<br>
+<br>
+</form>
+  <!-- List with avatar and controls -->
+<style>
+.demo-list-control {
+  width: 300px;
+}
+
+.demo-list-radio {
+  display: inline;
+}
+</style>
+
+</body>
+</html>
